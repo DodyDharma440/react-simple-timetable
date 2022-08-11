@@ -1,0 +1,29 @@
+{
+  "extends": ["react-app", "eslint:recommended"],
+  "rules": {
+    "no-useless-escape": "off",
+    "no-unused-vars": "off",
+    "no-console": "error",
+    "no-duplicate-imports": "error",
+    "@typescript-eslint/no-unused-vars": ["off"]
+  },
+  "env": {
+    "browser": true,
+    "node": true,
+    "jasmine": true,
+    "commonjs": true,
+    "es6": true
+  },
+  "globals": {
+    "React": true,
+    "google": true,
+    "mount": true,
+    "mountWithRouter": true,
+    "shallow": true,
+    "shallowWithRouter": true,
+    "context": true,
+    "expect": true,
+    "jsdom": true,
+    "JSX": true
+  }
+}

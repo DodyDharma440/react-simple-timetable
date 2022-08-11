@@ -1,0 +1,47 @@
+{
+  "name": "react-simple-timetable",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/cjs/index.js",
+  "module": "dist/esm/index.js",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "esno scripts/build.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DodyDharma440/react-simple-timetable.git"
+  },
+  "keywords": [
+    "timetable",
+    "react timetable"
+  ],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/DodyDharma440/react-simple-timetable/issues"
+  },
+  "homepage": "https://github.com/DodyDharma440/react-simple-timetable#readme",
+  "devDependencies": {
+    "@types/node": "^18.7.1",
+    "@types/react": "^18.0.17",
+    "@types/react-dom": "^18.0.6",
+    "chalk": "^5.0.1",
+    "dayjs": "^1.11.4",
+    "eslint": "^8.21.0",
+    "eslint-config-react-app": "^7.0.1",
+    "esno": "^0.16.3",
+    "loading-cli": "^1.1.0",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "rimraf": "^3.0.2",
+    "typescript": "^4.7.4"
+  },
+  "peerDependencies": {
+    "dayjs": "^1.11.4",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  }
+}
